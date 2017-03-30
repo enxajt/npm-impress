@@ -73,10 +73,8 @@ function convert(mdPath) {
   pages = md.render(pages);
   pages = spawnSync('perl', ['-0pe', 's/\n<h1><\\/h1>\n<h1>/\n<\\/div>\n\n<div class="step" >\n<h1>/mg'], {input: pages}).stdout.toString();
   pages = spawnSync('perl', ['-0pe', 's/^<h1><\\/h1>\n<h1>/<div class="step" >\n<h1>/gm'], {input: pages}).stdout.toString();
-
-  pages = spawnSync('perl', ['-pe', 's/^<h2>(.*)(?!(<h2>|<h3>))/\n<section class="level-2" >\n<h2>$1\n<\\/section>\n/gs'], {input: pages}).stdout.toString();
-  //pages = spawnSync('perl', ['-0pe', 's/^<h2>([.\n]+)(?!(<h2>|<h3>))/\n<section class="level-2" >\n<h2>$1<\\/section>\n/s'], {input: pages}).stdout.toString();
-
+  pages = spawnSync('perl', ['-0pe', 's/<\\/h2>(.*?)(<\\/div>|<h1>|<h2>|<h3>)/<\\/h2>\n<section class="level-2" >$1<\\/section>\n$2/gs'], {input: pages}).stdout.toString();
+  pages = spawnSync('perl', ['-0pe', 's/<\\/h3>(.*?)(<\\/div>|<h1>|<h2>|<h3>|<h4>)/<\\/h3>\n<section class="level-3" >$1<\\/section>\n$2/gs'], {input: pages}).stdout.toString();
   // -p print 必須 デフォルトでは1行ずつ-eの引数を評価する。つまりセパレータが\n。
   // /g \nマッチ & -0セパレータがヌル文字(\0)ファイル全体を一度に読み込む
   // /s .が改行を含む
