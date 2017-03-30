@@ -1,0 +1,3132 @@
+[
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      0,
+      1
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      0,
+      1
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [],
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      1,
+      2
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      1,
+      2
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "2017年度 帰国後の業務計画",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "2017年度 帰国後の業務計画",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      2,
+      3
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      2,
+      3
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "事業企画室 小谷紘平",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "事業企画室 小谷紘平",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "html_block",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      3,
+      4
+    ],
+    "nesting": 0,
+    "level": 0,
+    "children": null,
+    "content": "<!-- test -->\n",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      5,
+      6
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      5,
+      6
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [],
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      6,
+      7
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      6,
+      7
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "目標",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "目標",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "html_block",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      7,
+      11
+    ],
+    "nesting": 0,
+    "level": 0,
+    "children": null,
+    "content": "<!--\nイセトーのニュービジネスを念頭に置きながら、\n日仏それぞれのベンダー・技術・知識を使って共同開発\n-->\n",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      11,
+      12
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      11,
+      12
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "CPXメンバー企業",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "html_inline",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "<!--test-->",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "がそれぞれチャレンジしているdisruptionの様々な取り組みを参考として、イセトーにおいて同様の取り組みの可能性を検証・試行し、ビジネスとして確立させる",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "CPXメンバー企業<!--test-->がそれぞれチャレンジしているdisruptionの様々な取り組みを参考として、イセトーにおいて同様の取り組みの可能性を検証・試行し、ビジネスとして確立させる",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "html_block",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      12,
+      21
+    ],
+    "nesting": 0,
+    "level": 0,
+    "children": null,
+    "content": "<!--\n# 籍\nイセトーの籍（全体感とイセトーの力)は、技術参与\nKRCでの役職？は、Tatsuo考慮中\n# KRC拠点\n1~2年はフランスの経験を生かすことを考える\n既につながりのある京都の小さなマーケットで試してから、全国展開\n週1で、日帰りor一泊くらいの東京出張\n-->\n",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      22,
+      23
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      22,
+      23
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [],
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      23,
+      24
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      23,
+      24
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "手段、方法",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "手段、方法",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      24,
+      25
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      24,
+      25
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "一年間の実務研修を行なった、GD+社での業務経験と同社とのパイプを活用して、いくつかのテーマに取り組む",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "一年間の実務研修を行なった、GD+社での業務経験と同社とのパイプを活用して、いくつかのテーマに取り組む",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      26,
+      27
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      26,
+      27
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "活動拠点は本社所在の地の利をいかせる京都とし、KRC社の機能も利用する",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "活動拠点は本社所在の地の利をいかせる京都とし、KRC社の機能も利用する",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      28,
+      29
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      28,
+      29
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [],
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      29,
+      30
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      29,
+      30
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "ハイブリッドメール",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "ハイブリッドメール",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      30,
+      31
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      30,
+      31
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "DataOneのハイブリッドメール(SendEasy・PostOne)を、イセトーのクリッパーメールと比較し調査を継続する",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "DataOneのハイブリッドメール(SendEasy・PostOne)を、イセトーのクリッパーメールと比較し調査を継続する",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      32,
+      36
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      32,
+      36
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "  SendEasy:",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "  サービスセンターを対象としている",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "  オペレーターが少ない操作で書類発送を行える",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "  テレコム向けに開発したが、TV局などにも営業中である",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "&nbsp;&nbsp;SendEasy:\n&nbsp;&nbsp;サービスセンターを対象としている\n&nbsp;&nbsp;オペレーターが少ない操作で書類発送を行える\n&nbsp;&nbsp;テレコム向けに開発したが、TV局などにも営業中である",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      37,
+      39
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      37,
+      39
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "PostOne:",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "  オフィス全般を対象としている",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "PostOne:\n&nbsp;&nbsp;オフィス全般を対象としている",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      40,
+      41
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      40,
+      41
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [],
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      41,
+      42
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      41,
+      42
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "ハイブリッドメール",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "ハイブリッドメール",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h2",
+    "attrs": null,
+    "map": [
+      42,
+      43
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "##",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      42,
+      43
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "現状 aa",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "現状 aa",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h2",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "##",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      43,
+      45
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      43,
+      45
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "機械が入って、森さんが営業、KRCがソフトウェアを改善",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "機械が入って、森さんが営業、KRCがソフトウェアを改善",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "機械が入って、森さんが営業、KRCがソフトウェアを改善\n機械が入って、森さんが営業、KRCがソフトウェアを改善",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h3",
+    "attrs": null,
+    "map": [
+      45,
+      46
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "###",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      45,
+      46
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "現状 bb",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "現状 bb",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h3",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "###",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      46,
+      47
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      46,
+      47
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "機械が入って、森さんが営業、KRCがソフトウェアを改善",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "機械が入って、森さんが営業、KRCがソフトウェアを改善",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h2",
+    "attrs": null,
+    "map": [
+      47,
+      48
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "##",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      47,
+      48
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "課題",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "課題",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h2",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "##",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      48,
+      49
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      48,
+      49
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "SystemDや会計ソフトなどのプリンタドライバに組み込む",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "SystemDや会計ソフトなどのプリンタドライバに組み込む",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      50,
+      51
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      50,
+      51
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [],
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      51,
+      52
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      51,
+      52
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "パーソナライズドビデオ",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "パーソナライズドビデオ",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      52,
+      53
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      52,
+      53
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "日本の状況・エンゲージワンについてCPX・DataOneに報告する",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "日本の状況・エンゲージワンについてCPX・DataOneに報告する",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "bullet_list_open",
+    "tag": "ul",
+    "attrs": null,
+    "map": [
+      53,
+      57
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "-",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "list_item_open",
+    "tag": "li",
+    "attrs": null,
+    "map": [
+      53,
+      54
+    ],
+    "nesting": 1,
+    "level": 1,
+    "children": null,
+    "content": "",
+    "markup": "-",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      53,
+      54
+    ],
+    "nesting": 1,
+    "level": 2,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": true
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      53,
+      54
+    ],
+    "nesting": 0,
+    "level": 3,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "どういったユーザーに提供しているか",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "どういったユーザーに提供しているか",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 2,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": true
+  },
+  {
+    "type": "list_item_close",
+    "tag": "li",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 1,
+    "children": null,
+    "content": "",
+    "markup": "-",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "list_item_open",
+    "tag": "li",
+    "attrs": null,
+    "map": [
+      54,
+      55
+    ],
+    "nesting": 1,
+    "level": 1,
+    "children": null,
+    "content": "",
+    "markup": "-",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      54,
+      55
+    ],
+    "nesting": 1,
+    "level": 2,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": true
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      54,
+      55
+    ],
+    "nesting": 0,
+    "level": 3,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "内田さん青井さんが把握しているレベルの内容を把握",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "内田さん青井さんが把握しているレベルの内容を把握",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 2,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": true
+  },
+  {
+    "type": "list_item_close",
+    "tag": "li",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 1,
+    "children": null,
+    "content": "",
+    "markup": "-",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "list_item_open",
+    "tag": "li",
+    "attrs": null,
+    "map": [
+      55,
+      57
+    ],
+    "nesting": 1,
+    "level": 1,
+    "children": null,
+    "content": "",
+    "markup": "-",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      55,
+      56
+    ],
+    "nesting": 1,
+    "level": 2,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": true
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      55,
+      56
+    ],
+    "nesting": 0,
+    "level": 3,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "ビデオのチームには参加しない",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "ビデオのチームには参加しない",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 2,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": true
+  },
+  {
+    "type": "list_item_close",
+    "tag": "li",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 1,
+    "children": null,
+    "content": "",
+    "markup": "-",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "bullet_list_close",
+    "tag": "ul",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "-",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      57,
+      58
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      57,
+      58
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "欧州の動向調査を継続する（Voxygen:TTSも含む）",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "欧州の動向調査を継続する（Voxygen:TTSも含む）",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "html_block",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      58,
+      64
+    ],
+    "nesting": 0,
+    "level": 0,
+    "children": null,
+    "content": "<!--\n## コールセンター\nVOCALCOM\n給付金\n青井さんと\n-->\n",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      65,
+      66
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      65,
+      66
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [],
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      66,
+      67
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      66,
+      67
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "DPO",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "DPO",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      67,
+      68
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      67,
+      68
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "DataOneのDocOneを日本に応用できるか検討する",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "DataOneのDocOneを日本に応用できるか検討する",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      69,
+      73
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      69,
+      73
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "DocOne:",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "BPCE (銀行), GD+, Numenの合弁会社",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "インバウンドはNumenが担当",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "アウトバウンドをGD+が担当",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "DocOne:\nBPCE (銀行), GD+, Numenの合弁会社\nインバウンドはNumenが担当\nアウトバウンドをGD+が担当",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      74,
+      75
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      74,
+      75
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [],
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      75,
+      76
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      75,
+      76
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "マーケティングプラットフォーム",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "マーケティングプラットフォーム",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      76,
+      78
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      76,
+      78
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "Gocadプラットフォームが日本で使えるか検討",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "野口さん: KRC顧問、元電通",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "Gocadプラットフォームが日本で使えるか検討\n野口さん: KRC顧問、元電通",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      79,
+      80
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      79,
+      80
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [],
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      80,
+      81
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      80,
+      81
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "不着郵便管理",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "不着郵便管理",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      81,
+      82
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      81,
+      82
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "DataOneのScopOneを日本に応用できるか野原本部長と検討する",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "DataOneのScopOneを日本に応用できるか野原本部長と検討する",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "html_block",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      82,
+      92
+    ],
+    "nesting": 0,
+    "level": 0,
+    "children": null,
+    "content": "<!--\n学生バイト、CPXはどう扱うかは考える\n# CPXのサポート\nplanning meeting に参加（年2回）\nworking meeting に参加（年2回）\nSteering Meeting の Minutes 作成\n\n# eFORMAに参加\n6月の総会と10月のスタディツアー\n-->\n",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "html_block",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      92,
+      103
+    ],
+    "nesting": 0,
+    "level": 0,
+    "children": null,
+    "content": "<!--\n# 日仏の橋渡し役\nCPX/eFORMAにあわせて、パリ滞在2~3週間を年4回\n\nGD+オフィス・メール・SNSを利用可能\nビザは2017年11月末までOK\n車は2017年5月に返却し、その後はレンタカー\n\nビザが切れたあとのアパルトマンは？要検討\n（ホテル代200ユーロx80泊＝16000EUR ≒ 1300EURx12=15600)\n-->\n",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "html_block",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      103,
+      119
+    ],
+    "nesting": 0,
+    "level": 0,
+    "children": null,
+    "content": "<!--\n学生バイト、CPXはどう扱うかは考える\n# 学生アルバイト\n## 目的\n外注するにせよ、開発や新規事業のトライ＆エラーを回せるグループを作る\nアイディア > 開発 > リリース > ユーザーデータ分析 > アイディア\n## 内容\nPC10で出たアイディア、例えば家計簿アプリでもISETOの名前でリリースする\n情報工学系の学生バイトを集めて開発する\nお互いに良さそうなら卒業時に入社してもらう\nHTML5 video, PostaPronta\n### 例えば家計簿アプリ\nエンドユーザーが知りたいのは、明細ではなく家計のバランス\n節約しないといけないのか、支出しても問題ないのかの判断\nMoneyfoward にない機能は何か\n-->\n",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "html_block",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      119,
+      127
+    ],
+    "nesting": 0,
+    "level": 0,
+    "children": null,
+    "content": "<!--\n# PC10\n## 課題\n話し合いで終わらせず、有効なデータをアウトプットする\n会議中だけでなく継続してコメントや閲覧を続けられるようにする\n## TODO\n議事録を元に、wikiやマインドマップを作成する\n-->\n",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "html_block",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      127,
+      130
+    ],
+    "nesting": 0,
+    "level": 0,
+    "children": null,
+    "content": "<!--\n別にプレゼンスキルや営業折衝スキルのセミナーも受講してもらおうと思ってる\n-->\n",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  }
+]

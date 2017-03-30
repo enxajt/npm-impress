@@ -5,15 +5,15 @@ const ejs = require('ejs');
 const exec = require('child_process').exec;
 const execSync = require("child_process").execSync;
 const spawn = require('child_process').spawn;
+const spawnSync = require('child_process').spawnSync;
 const md = require('markdown-it')({
   html:         true,        // Enable HTML tags in source
   xhtmlOut:     false,        // Use '/' to close single tags (<br />).
                               // This is only for full CommonMark compatibility.
-  breaks:       false,        // Convert '\n' in paragraphs into <br>
+  breaks:       true,        // Convert '\n' in paragraphs into <br>
   langPrefix:   'language-',  // CSS language prefix for fenced blocks. Can be
                               // useful for external highlighters.
   linkify:      false,        // Autoconvert URL-like text to links
-
   // Enable some language-neutral replacement + quotes beautification
   typographer:  false,
 
@@ -62,25 +62,24 @@ watcher.on('ready', function() { console.log("監視開始"); })
 
 function convert(mdPath) {
   var pages = fs.readFileSync(mdPath);
-  var cmd = fs.readFileSync("./beforeMd.sh")
-  pages = execSync('echo "'+pages+'" '+cmd).toString();
-  pages = md.render(pages);
 
-  var perl = spawn('perl', ['-0pe', 's/^<h1><\/h1>\n<h1>/<\/div>\n\n<div class="step" >\n<h1>/mg']);
-  //.stdin.write(pages);
-  console.log('---------------------------------------------------');
-  perl.stdout.on('data', (data) => {
-    console.log(data.toString());
-  });
-  perl.stderr.on('data', (data) => {
-    console.log(`stderr: ${data}`);
-  });
-  perl.on('close', (code) => {
-    if (code !== 0) {
-      console.log(`exited with code ${code}`);
-    }
-  });
-  console.log('---------------------------------------------------');
+  pages = spawnSync('sed', ['-e', 's/^    /\\&nbsp;\\&nbsp;\\&nbsp;\\&nbsp;/g'], {input: pages}).stdout.toString();
+  pages = spawnSync('sed', ['-e', 's/^    /\\&nbsp;\\&nbsp;\\&nbsp;\\&nbsp;/g'], {input: pages}).stdout.toString();
+  pages = spawnSync('sed', ['-e', 's/^  /\\&nbsp;\\&nbsp;/g'], {input: pages}).stdout.toString();
+  pages = spawnSync('sed', ['-e', 's/^ /\\&nbsp;/g'], {input: pages}).stdout.toString();
+
+  fs.writeFileSync('./hoge.json', JSON.stringify(md.parse(pages), null, '  ')); 
+
+  pages = md.render(pages);
+  pages = spawnSync('perl', ['-0pe', 's/\n<h1><\\/h1>\n<h1>/\n<\\/div>\n\n<div class="step" >\n<h1>/mg'], {input: pages}).stdout.toString();
+  pages = spawnSync('perl', ['-0pe', 's/^<h1><\\/h1>\n<h1>/<div class="step" >\n<h1>/gm'], {input: pages}).stdout.toString();
+
+  pages = spawnSync('perl', ['-pe', 's/^<h2>(.*)(?!(<h2>|<h3>))/\n<section class="level-2" >\n<h2>$1\n<\\/section>\n/gs'], {input: pages}).stdout.toString();
+  //pages = spawnSync('perl', ['-0pe', 's/^<h2>([.\n]+)(?!(<h2>|<h3>))/\n<section class="level-2" >\n<h2>$1<\\/section>\n/s'], {input: pages}).stdout.toString();
+
+  // -p print 必須 デフォルトでは1行ずつ-eの引数を評価する。つまりセパレータが\n。
+  // /g \nマッチ & -0セパレータがヌル文字(\0)ファイル全体を一度に読み込む
+  // /s .が改行を含む
 
   var html = fs.readFileSync('./ejs/index.html', 'utf8', function (err,data) {
     if (err) { return console.log(err); }
@@ -93,11 +92,6 @@ function convert(mdPath) {
     css: cssName,
     pages: pages
   });
-
-  // exec('rm -f ./Notes/'+title+'.html', (err, stdout, stderr) => {
-  //   if (err) { console.log(err); }
-  //   console.log(stdout);
-  // });
   fs.writeFile('./Notes/'+title+'.html', html, function(err) {
       if(err) { return console.log(err); }
   }); 
@@ -116,6 +110,7 @@ function convert(mdPath) {
     if (err) { console.log(err); }
     console.log(stdout);
   });
+  return true;
 }
 
 function removeExtension(fileName) {
