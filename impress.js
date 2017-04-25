@@ -44,21 +44,21 @@ glob(src_dir+"/*.impress.md", function (er, files) {
 const chokidar = require('chokidar')
 var watcher = chokidar.watch('./md', {
   ignored: /[\/\\]\./,
-  persistent:true //監視継続
+  persistent:true
   })
-watcher.on('ready', function() { console.log("監視開始"); })
+watcher.on('ready', function() { console.log("start watching"); })
   .on('add', function(path) {
-    console.log("追加ファイル-> " + path);
+    console.log("added file -> " + path);
     if(convert(path)) { console.log("converted -> " + path); }
   })
   .on('change', function(path) {
-    console.log("修正されました-> " + path);
+    console.log("modified file -> " + path);
     if(convert(path)) { console.log("converted -> " + path); }
   })
-  .on('addDir', function(path) { console.log("追加ディレクトリ-> " + path); })
-  .on('unlink', function(path) { console.log("削除されました-> " + path); })
-  .on('unlinkDir', function(path) { console.log("削除されました-> " + path); })
-  .on('error', function(error) { console.log("エラーです-> " + error); })
+  .on('addDir', function(path) { console.log("added dir -> " + path); })
+  .on('unlink', function(path) { console.log("deleted -> " + path); })
+  .on('unlinkDir', function(path) { console.log("deleted -> " + path); })
+  .on('error', function(error) { console.log("error -> " + error); })
 
 function convert(mdPath) {
   var pages = fs.readFileSync(mdPath);
