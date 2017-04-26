@@ -94,10 +94,10 @@ function convert(mdPath) {
       if(err) { return console.log(err); }
   }); 
 
-  //exec('./decktape-1.0.0/phantomjs ./decktape-1.0.0/decktape.js impress ./Notes/'+title+'.html ./Notes/'+title+'.pdf', (err, stdout, stderr) => {
-  //  if (err) { console.log(err); }
-  //  console.log(stdout);
-  //});
+  exec('./decktape-1.0.0/phantomjs ./decktape-1.0.0/decktape.js impress ./Notes/'+title+'.html ./Notes/'+title+'.pdf', (err, stdout, stderr) => {
+    if (err) { console.log(err); }
+    console.log(stdout);
+  });
 
   exec('[ -e ./Notes/'+cssName+' ] || cp ./Notes/impress/template.css ./Notes/'+cssName, (err, stdout, stderr) => {
     if (err) { console.log(err); }
