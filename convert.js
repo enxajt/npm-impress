@@ -1,4 +1,4 @@
-const md-it = require('markdown-it')({
+const md_it = require('markdown-it')({
   html:         true,        // Enable HTML tags in source
   xhtmlOut:     false,        // Use '/' to close single tags (<br />).
                               // This is only for full CommonMark compatibility.
@@ -30,9 +30,9 @@ exports.main = function(mdPath) {
   pages = spawnSync('sed', ['-e', 's/^  /\\&nbsp;\\&nbsp;/g'], {input: pages}).stdout.toString();
   pages = spawnSync('sed', ['-e', 's/^ /\\&nbsp;/g'], {input: pages}).stdout.toString();
 
-  fs.writeFileSync('./hoge.json', JSON.stringify(md-it.parse(pages), null, '  ')); 
+  fs.writeFileSync('./hoge.json', JSON.stringify(md_it.parse(pages), null, '  ')); 
 
-  pages = md-it.render(pages);
+  pages = md_it.render(pages);
   pages = spawnSync('perl', ['-0pe', 's/\n<h1><\\/h1>\n<h1>/\n<\\/div>\n\n<div class="step" >\n<h1>/mg'], {input: pages}).stdout.toString();
   pages = spawnSync('perl', ['-0pe', 's/^<h1><\\/h1>\n<h1>/<div class="step" >\n<h1>/gm'], {input: pages}).stdout.toString();
   pages = spawnSync('perl', ['-0pe', 's/<\\/h2>(.*?)(<\\/div>|<h1>|<h2>|<h3>)/<\\/h2>\n<section class="level-2" >$1<\\/section>\n$2/gs'], {input: pages}).stdout.toString();
