@@ -58,7 +58,7 @@ exports.main = function(mdPath) {
     pages: presn.pages
   });
 
-  console.log("converted : " + mdPath);
+  console.log("made HTML : " + mdPath);
   return presn;
 }
 

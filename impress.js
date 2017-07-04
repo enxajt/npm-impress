@@ -22,17 +22,21 @@ watcher.on('ready', function() { console.log("start chokidar (file watching)"); 
   .on('unlinkDir', function(mdPath) { console.log("deleted -> " + mdPath); })
   .on('error', function(error) { console.log("error -> " + error); })
 
-const convert = require('./convert.js');
+const makeHTML = require('./makeHTML.js');
 function action(mdPath) {
-  var presn  = convert.main(mdPath);
+  var presn  = makeHTML.main(mdPath);
   fs.writeFile('./impress-md/'+presn.title+'.html', presn.html, function(err) {
     if(err) { return console.log(err); }
   }); 
-  exec('[ -e ./impress-md/'+presn.cssName+' ] || cp ./impress-md/template/template.css ./impress-md/'+presn.cssName, (err, stdout, stderr) => {
+  exec('[ -e ./impress-md/'+presn.cssName+' ] || cp ./impress-md/impress/template.css ./impress-md/'+presn.cssName, (err, stdout, stderr) => {
     if (err) { console.log(err); }
     console.log(stdout);
   });
   makePDF(presn);
+  exec('cp -f ./impress-md/'+presn.cssName+' ./', (err, stdout, stderr) => {
+    if (err) { console.log(err); }
+    console.log(stdout);
+  });
 }
 
 function makePDF(presn){
