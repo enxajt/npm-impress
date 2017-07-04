@@ -7,5 +7,4 @@ node_modules
 test*.js
 *.log
 
-package-lock.json
 hoge.json
