@@ -20,7 +20,7 @@ const spawnSync = require('child_process').spawnSync;
 
 const chokidar = require('chokidar')
 const convert = require('./convert.js');
-var watcher = chokidar.watch('./md', {
+var watcher = chokidar.watch('**/*./md', {
   ignored: /[\/\\]\./,
   persistent:true
 })
