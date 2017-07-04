@@ -94,7 +94,7 @@ function convert(mdPath) {
       if(err) { return console.log(err); }
   }); 
 
-  console.log("start decktape(html>pdf)");
+//  console.log("start decktape(html>pdf)");
 //  exec('./decktape-1.0.0/phantomjs ./decktape-1.0.0/decktape.js impress ./Notes/'+title+'.html ./Notes/'+title+'.pdf', (err, stdout, stderr) => {
 //    if (err) { console.log(err); }
 //    console.log(stdout);
