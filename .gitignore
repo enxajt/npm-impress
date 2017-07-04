@@ -6,3 +6,6 @@ decktape-1.0.0
 node_modules
 test*.js
 *.log
+
+package-lock.json
+hoge.json
