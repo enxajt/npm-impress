@@ -8,5 +8,3 @@ test*.js
 *.log
 
 hoge.json
-.ssh
-git.sh
