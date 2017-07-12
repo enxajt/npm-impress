@@ -4,8 +4,6 @@ const fs = require('fs');
 const path = require('path');
 const spawnSync = require('child_process').spawnSync;
 var marked = require('marked');
-console.log(marked('I am using __markdown__.'));
-console.log(marked( 'aa | b | cc\n---|---|---\naa | b | cc'));
 
 exports.main = function(mdPath) {
   var presn = new Object();
@@ -18,7 +16,7 @@ exports.main = function(mdPath) {
 //for test
 //  fs.writeFileSync('./hoge.json', JSON.stringify(md_it.parse(presn.pages), null, '  ')); 
 
-  presn.pages = md_it.render(presn.pages);
+  presn.pages = marked(presn.pages);
   presn.pages = spawnSync('perl', ['-0pe', 's/\n<h1><\\/h1>\n<h1>/\n<\\/div>\n\n<div class="step" >\n<h1>/mg'], {input: presn.pages}).stdout.toString();
   presn.pages = spawnSync('perl', ['-0pe', 's/^<h1><\\/h1>\n<h1>/<div class="step" >\n<h1>/gm'], {input: presn.pages}).stdout.toString();
   presn.pages = spawnSync('perl', ['-0pe', 's/<\\/h2>(.*?)(<\\/div>|<h1>|<h2>|<h3>)/<\\/h2>\n<section class="level-2" >$1<\\/section>\n$2/gs'], {input: presn.pages}).stdout.toString();
