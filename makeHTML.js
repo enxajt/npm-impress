@@ -36,12 +36,12 @@ exports.main = function(mdPath) {
   presn.pages = spawnSync('sed', ['-e', 's/^  /\\&nbsp;\\&nbsp;/g'], {input: presn.pages}).stdout.toString();
   presn.pages = spawnSync('sed', ['-e', 's/^ /\\&nbsp;/g'], {input: presn.pages}).stdout.toString();
 
+//for test
+fs.writeFileSync('./impress-md/md_it.test', JSON.stringify(md_it.render(presn.pages), null, '  ')); 
+fs.writeFileSync('./impress-md/marked.test', JSON.stringify(marked(presn.pages), null, '  ')); 
 //  presn.pages = marked(presn.pages);
 //  presn.pages = md_it.render(presn.pages);
-//for test
-fs.writeFileSync('./impress-md/pages.test', JSON.stringify(presn.pages, null, '  ')); 
-fs.writeFileSync('./impress-md/md_it.test', JSON.stringify(md_it.parse(presn.pages), null, '  ')); 
-fs.writeFileSync('./impress-md/marked.test', JSON.stringify(marked(presn.pages), null, '  ')); 
+
   presn.pages = spawnSync('perl', ['-0pe', 's/\n<h1><\\/h1>\n<h1>/\n<\\/div>\n\n<div class="step" >\n<h1>/mg'], {input: presn.pages}).stdout.toString();
   presn.pages = spawnSync('perl', ['-0pe', 's/^<h1><\\/h1>\n<h1>/<div class="step" >\n<h1>/gm'], {input: presn.pages}).stdout.toString();
   presn.pages = spawnSync('perl', ['-0pe', 's/<\\/h2>(.*?)(<\\/div>|<h1>|<h2>|<h3>)/<\\/h2>\n<section class="level-2" >$1<\\/section>\n$2/gs'], {input: presn.pages}).stdout.toString();
