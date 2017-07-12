@@ -35,9 +35,7 @@ function action(mdPath) {
   exec('[ -e ./impress-md/'+presn.cssName+' ] || cp ./impress-md/impress/template.css ./impress-md/'+presn.cssName, (err, stdout, stderr) => {
     if (err) { console.log(err); }
     console.log(stdout);
-    console.log('made css');
   });
-  console.log('made css');
   makePDF(presn);
   exec('cp -f ./impress-md/'+presn.cssName+' ./', (err, stdout, stderr) => {
     if (err) { console.log(err); }
