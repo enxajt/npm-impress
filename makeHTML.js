@@ -4,7 +4,12 @@ const fs = require('fs');
 const path = require('path');
 const spawnSync = require('child_process').spawnSync;
 var markdown = require( "markdown" ).markdown;
-console.log( markdown.toHTML( "Hello *World*!" ) );
+console.log( markdown.toHTML( "
+| aaa | bbb | ccc |
+| --- | --- | --- |
+| aaa | bbb | ccc |
+| aaa | bbb | ccc |
+" ) );
 
 exports.main = function(mdPath) {
   var presn = new Object();
