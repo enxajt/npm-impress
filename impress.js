@@ -28,7 +28,7 @@ function action(mdPath) {
   fs.writeFile('./impress-md/'+presn.title+'.html', presn.html, function(err) {
     if(err) { return console.log(err); }
   }); 
-  exec('[ -e ./impress-md/impress ] || cp ./impress ./impress-md/impress', (err, stdout, stderr) => {
+  exec('[ -e ./impress-md/impress ] || cp -R ./impress ./impress-md/impress', (err, stdout, stderr) => {
     if (err) { console.log(err); }
     console.log(stdout);
   });
