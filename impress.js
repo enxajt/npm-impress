@@ -37,10 +37,6 @@ function action(mdPath) {
     console.log(stdout);
   });
   makePDF(presn);
-  exec('cp -f ./impress-md/'+presn.cssName+' ./', (err, stdout, stderr) => {
-    if (err) { console.log(err); }
-    console.log(stdout);
-  });
 }
 
 function makePDF(presn){
