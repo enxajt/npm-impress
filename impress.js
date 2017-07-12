@@ -28,10 +28,12 @@ function action(mdPath) {
   fs.writeFile('./impress-md/'+presn.title+'.html', presn.html, function(err) {
     if(err) { return console.log(err); }
   }); 
-  exec('[ -e ./impress-md/impress ] || cp ./impress ./impress-md/', (err, stdout, stderr) => {
+  console.log('made html');
+  exec('[ -e ./impress-md/impress ] || cp ./impress ./impress-md/impress', (err, stdout, stderr) => {
     if (err) { console.log(err); }
     console.log(stdout);
   });
+  console.log('cp js and css');
   exec('[ -e ./impress-md/'+presn.cssName+' ] || cp ./impress-md/impress/template.css ./impress-md/'+presn.cssName, (err, stdout, stderr) => {
     if (err) { console.log(err); }
     console.log(stdout);
