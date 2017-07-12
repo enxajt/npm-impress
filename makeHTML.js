@@ -3,8 +3,9 @@ const exec = require('child_process').exec;
 const fs = require('fs');
 const path = require('path');
 const spawnSync = require('child_process').spawnSync;
-var markdown = require( "markdown" ).markdown;
-console.log( markdown.toHTML( " aa | b | cc\n---|---|---\naa | b | cc" ) );
+var marked = require('marked');
+console.log(marked('I am using __markdown__.'));
+console.log(marked( 'aa | b | cc\n---|---|---\naa | b | cc'));
 
 exports.main = function(mdPath) {
   var presn = new Object();
