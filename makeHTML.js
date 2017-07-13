@@ -39,6 +39,7 @@ exports.main = function(mdPath) {
   presn.pages = spawnSync('perl', ['-0pe', 's/\n<p>#</p>\n<h1>/\n<\\/div>\n\n<div class="step" >\n<h1>/mg'], {input: presn.pages}).stdout.toString();
 //for test
 fs.writeFileSync('./impress-md/marked.test', JSON.stringify(presn.pages, null, '  ')); 
+fs.writeFileSync('./impress-md/marked2.test', presn.pages); 
 
   presn.pages = spawnSync('perl', ['-0pe', 's/^<p>#</p>\n<h1>/<div class="step" >\n<h1>/gm'], {input: presn.pages}).stdout.toString();
   presn.pages = spawnSync('perl', ['-0pe', 's/<\\/h2>(.*?)(<\\/div>|<h1>|<h2>|<h3>)/<\\/h2>\n<section class="level-2" >$1<\\/section>\n$2/gs'], {input: presn.pages}).stdout.toString();
